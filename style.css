@@ -8,7 +8,10 @@ h1{
 h2{
     font-size: 40px;
 }
-.name-highlight{
+p{
+    color: gray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -39,4 +42,28 @@ section{
     background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+#fullstack-dev{
+    background-color: white;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#newbie-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
